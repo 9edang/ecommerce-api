@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS transactions (
+  id BIGSERIAL PRIMARY KEY,
+  sku VARCHAR(255),
+  qty INTEGER
+);
